@@ -1,0 +1,209 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary_color: #ff0033;
+}
+
+/* General Class */
+.container {
+    width: 1200px;
+    margin: auto;
+}   
+
+/* The heading Section */
+.head {
+    background-color: #1d262d;
+}
+
+.headNav {
+    padding: 10px;
+    display: flex;
+    font-size: 18px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul>li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+ul>li>a {
+    color: #e2e8ec;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+ul>li>a:hover {
+    color: #fff;
+}
+
+.subnav {
+    background-color: #e0f2ff;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.search{
+    width: 500px;
+    height: 40px;
+}
+.search>*{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 1rem;
+    height: 100%;
+}
+.header button{
+    padding: 12px 5%;
+    font-size: 1.25rem;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(140, 140, 197);
+    color: white;
+    transition: all 1s;
+}
+.header button:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+.content{
+    padding: 50px;
+}
+.sideRigth{
+    width: 600px;
+    padding: 30px;
+}
+.sideRigth p{
+    font-size: 18px;
+    padding:15px 0; 
+}
+
+.click button{
+    font-size: 22px;
+    padding:20px 45px;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    margin: 10px;
+}
+.click button:nth-child(1){
+    background-color: rgb(120, 120, 207);
+    transition: all 1s;
+}
+.click button:nth-child(2){
+    background-color: rgb(75, 75, 15);
+    transition: all 1s;
+}
+.click button:nth-child(1):hover{
+    background-color: blue;
+}
+.click button:nth-child(2):hover{
+    background-color: yellow;
+    color: black;
+}
+
+.ftcontent{
+    display: flex;
+    justify-content: space-between;
+    padding-top:20px ;
+}
+
+.four p{
+    font-size: 18px;
+    padding: 10px;
+    color: whitesmoke;
+}
+.four button{
+    margin-top: 20px;
+    background-color: blanchedalmond;
+    cursor: pointer;
+    padding: 15px 40px;
+    font-size: 22px ;
+    transition: all 1s;
+}
+.four ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.four ul li a{
+    font-size: 24px;
+}
+.four button:hover{
+    background-color: blue;
+    color: white;
+}
+.ftcontent h1{
+    color: white;
+    margin: 10px;
+}
+.ftcontent ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+.ftcontent ul li a{
+    text-decoration: none;
+    margin: 5px;
+}
+
+footer {
+    background-color: #1d262d;
+}
+.allft{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+.ftmid img {
+    width: 200px;
+    height:100px;
+}
+.ftmid p{
+    color:whitesmoke;
+    padding: 10px;
+}
+.ftmid button{
+    padding: 15px 25px;
+    font-size: 16px;
+}
+.ftmid button:hover{
+    background-color: bisque;
+    cursor: pointer;
+}
+.ftfoot p{
+    color: whitesmoke;
+    font-size: 22px;
+    padding: 5px;
+}
+.ftfoot ul{
+    display: flex;
+
+}
+
+/* media queries */
+
+@media only screen and(max-width:670px) {}
